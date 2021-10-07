@@ -1,0 +1,310 @@
+
+body {
+	font-size: 16px;
+	margin: 5%;
+	background-color: #20391e;
+	margin-inline: auto;
+}
+
+
+
+h1 {
+	text-align: center;
+	font-family: 'Mali', cursive;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Mali', cursive;
+	color: #6dc066;
+	margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: xx-large;
+      
+   border: 5px #000;
+   margin: 0;
+   outline-style: groove;
+   color: #000000;
+   background-color: #6dc066;
+   margin-left: auto;
+   margin-right: auto;
+   outline-style: auto;
+   border-bottom-style: groove;
+   margin-bottom: 10px;
+
+}
+
+h3 {
+	text-align: center;
+	font-family: 'Mali', cursive;
+	color: #black;
+	margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+
+
+.container1 {
+	display: flex;
+}
+
+.title {
+	
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 1320px;
+    padding: 10px;
+    border: 5px #000;
+    margin: 0;
+    outline-style: groove;
+    color: #dddddd;
+    background-color: #eeeeee;
+    margin-left: auto;
+  	margin-right: auto;
+    outline-style: auto;
+    border-bottom-style: groove;
+}
+
+.plate {
+text-align: center;
+
+}
+
+
+
+.intro {
+
+	font-family: 'Mali', cursive;
+	color: #c4e5c1;
+	width: 1320px;
+	margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+
+
+.icons {
+	flex-direction: column;
+	flex-basis: 50%;
+	background-color: #eeeeee;
+	float: left;
+  width: 50%;
+  flex-flow: column;
+  font-family: 'Mali', cursive;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border: 5px #000;
+  border-style: groove;
+	
+}
+
+.icon-explanation {
+	flex-direction: column;
+	background-color: #DDDDDD;
+	float: left;
+	font-family: 'Mali', cursive;
+	margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border: 5px #000;
+  border-style: groove;
+
+    width: 50%;
+
+}
+
+
+
+.footer {
+		width: 1320px;
+    padding: 50px;
+    border: 5px #000;
+    margin: 0;
+    outline-style: groove;
+    color: #000000;
+    background-color: #eeeeee;
+    font-family: 'Mali', cursive;
+    border: 5px #000;
+    border-style: groove;
+    text-align: center;
+    font-size: xx-small;
+
+}
+
+
+
+
+
+@media (min-width: 681px) {
+
+	
+.container1 {
+	display: flex;
+}
+
+.title {
+	
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 1320px;
+    padding: 10px;
+    border: 5px #000;
+    margin: 0;
+    outline-style: groove;
+    color: #000000;
+    background-color: #eeeeee;
+    margin-left: auto;
+  	margin-right: auto;
+    outline-style: auto;
+    border-bottom-style: groove;
+}
+
+.plate {
+text-align: center;
+
+}
+
+
+
+.intro {
+
+		font-family: 'Mali', cursive;
+		color: #c4e5c1;
+		width: 1320px;
+		margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.center {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+}
+
+
+.icons {
+		flex-direction: column;
+		flex-basis: 50%;
+		background-color: #DDDDDD;
+		float: left;
+    width: 50%;
+    flex-flow: column;
+    font-family: 'Mali', cursive;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: 5px #000;
+    border-style: groove;
+    margin: 20px;
+	
+}
+
+.icon-explanation {
+		flex-direction: column;
+		background-color: #DDDDDD;
+		float: left;
+		font-family: 'Mali', cursive;
+		margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: 5px #000;
+    border-style: groove;
+    margin: 20px;
+    width: 50%;
+
+}
+
+
+
+.footer {
+		width: 1320px;
+    padding: 5px;
+    border: 5px #000;
+    margin: 0;
+    outline-style: groove;
+    color: #000000;
+    background-color: #DDDDDD;
+    font-family: 'Mali', cursive;
+    border: 5px #000;
+    border-style: groove;
+    
+    font-size: x-small;
+    outline-style: auto;
+    border-bottom-style: groove;
+    margin-bottom: 10px;
+    position: absolute;
+    width: 1400px;
+
+}
+
+
+@media(min-width: 681px)
+ {
+
+  body {
+	font-size: 30px;}
+
+  h2 {
+  	width: 1400px;
+    font-size: xxx-large;}
+
+ .icons {
+text-align: -webkit-center;}
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+    width: 1800px;}
+
+.container1 {
+    display: flex;
+    width: fit-content;
+    font-size: xx-large;}
+    
+ .footer {
+ 	    width: 1320px;
+    padding: 5px;
+    border: 5px #000;
+    margin: 0;
+    outline-style: groove;
+    color: #000000;
+    background-color: #DDDDDD;
+    font-family: 'Mali', cursive;
+    border: 5px #000;
+    border-style: groove;
+    font-size: x-small;
+    outline-style: auto;
+    border-bottom-style: groove;
+    margin-bottom: 10px;
+    position: absolute;
+    width: 1400px;
+    font-size: xxx-large;
+
+ }
+
+}
+
