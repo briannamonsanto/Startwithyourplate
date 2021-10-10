@@ -73,7 +73,13 @@ text-align: center;
 
 }
 
-
+.center {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+}
 
 .intro {
 
@@ -261,7 +267,7 @@ display: block;
 }
 
 
-@media(min-width: 681px)
+@media only screen (min-width: 681px)
  {
 
   body {
@@ -274,15 +280,20 @@ display: block;
  .icons {
 text-align: -webkit-center;}
 
+.intro {
+  font-size: x-large;
+}
+
   .container {
     display: flex;
+    width: 1420px;
     flex-direction: column;
     font-size: xx-large;
     width: 1800px;}
 
 .container1 {
     display: flex;
-    width: fit-content;
+    inline-size: fit-content;
     font-size: xx-large;}
     
  .footer {
