@@ -3,7 +3,7 @@ body {
 	font-size: 16px;
 	margin: 5%;
 	background-color: #20391e;
-	margin-inline: auto;
+	
 }
 
 
@@ -60,8 +60,8 @@ h3 {
     border: 5px #000;
     margin: 0;
     outline-style: groove;
-    color: #dddddd;
-    background-color: #eeeeee;
+    color: #black;
+    background-color: #DDDDDD;
     margin-left: auto;
   	margin-right: auto;
     outline-style: auto;
@@ -104,7 +104,7 @@ display: block;
 .icons {
 	flex-direction: column;
 	flex-basis: 50%;
-	background-color: #eeeeee;
+	background-color: #DDDDDD;
 	float: left;
   width: 50%;
   flex-flow: column;
@@ -135,187 +135,75 @@ display: block;
 
 
 .footer {
-		width: 1320px;
+		width: 1200px;
     padding: 50px;
     border: 5px #000;
     margin: 0;
     outline-style: groove;
     color: #000000;
-    background-color: #eeeeee;
-    font-family: 'Mali', cursive;
-    border: 5px #000;
-    border-style: groove;
-    text-align: center;
-    font-size: xx-small;
-
-}
-
-
-
-
-
-@media (min-width: 681px) {
-
-	
-.container1 {
-	display: flex;
-}
-
-.title {
-	
-		flex-wrap: wrap;
-		justify-content: center;
-		width: 1320px;
-    padding: 10px;
-    border: 5px #000;
-    margin: 0;
-    outline-style: groove;
-    color: #000000;
-    background-color: #eeeeee;
-    margin-left: auto;
-  	margin-right: auto;
-    outline-style: auto;
-    border-bottom-style: groove;
-}
-
-.plate {
-text-align: center;
-
-}
-
-
-
-.intro {
-
-		font-family: 'Mali', cursive;
-		color: #c4e5c1;
-		width: 1320px;
-		margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-
-}
-
-.container {
-  display: flex;
-  flex-direction: row;
-
-}
-
-.center {
-display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  height: auto;
-}
-
-
-.icons {
-		flex-direction: column;
-		flex-basis: 50%;
-		background-color: #DDDDDD;
-		float: left;
-    width: 50%;
-    flex-flow: column;
-    font-family: 'Mali', cursive;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    border: 5px #000;
-    border-style: groove;
-    margin: 20px;
-	
-}
-
-.icon-explanation {
-		flex-direction: column;
-		background-color: #DDDDDD;
-		float: left;
-		font-family: 'Mali', cursive;
-		margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    border: 5px #000;
-    border-style: groove;
-    margin: 20px;
-    width: 50%;
-
-}
-
-
-
-.footer {
-		width: 1320px;
-    padding: 5px;
-    border: 5px #000;
-    margin: 0;
-    outline-style: groove;
-    color: #000000;
     background-color: #DDDDDD;
     font-family: 'Mali', cursive;
     border: 5px #000;
     border-style: groove;
-    
-    font-size: x-small;
-    outline-style: auto;
-    border-bottom-style: groove;
-    margin-bottom: 10px;
-    position: absolute;
-    width: 1400px;
+    text-align: center;
+    font-size: small;
 
 }
 
 
-@media only screen (min-width: 681px)
- {
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
 
-  body {
-	font-size: 30px;}
+  .container1 {
+    display: flex;
+    flex-wrap: wrap;
+        width: 900px;
+    font-size: xx-large;
 
-  h2 {
-  	width: 1400px;
-    font-size: xxx-large;}
+  }
 
- .icons {
-text-align: -webkit-center;}
+  h2 {align-content: center;
+    font-size: 43px;
+    padding: 10px;}
 
-.intro {
-  font-size: x-large;
-}
+  .intro {
+    width: 900px;
+    font-size: 42px;
+
+  }
 
   .container {
+    justify-content: center;
+    font-size: x-large;
+  flex-direction: column;}
+
+.webpage {display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+          margin-left: 200px;
+    margin-right: 9px;
+  }
+
+  .icons {font-size: xxx-large;
     display: flex;
-    width: 1420px;
     flex-direction: column;
-    font-size: xx-large;
-    width: 1800px;}
+  width: 900px;}
 
-.container1 {
-    display: flex;
-    inline-size: fit-content;
-    font-size: xx-large;}
-    
- .footer {
- 	    width: 1320px;
-    padding: 5px;
-    border: 5px #000;
-    margin: 0;
-    outline-style: groove;
-    color: #000000;
-    background-color: #DDDDDD;
-    font-family: 'Mali', cursive;
-    border: 5px #000;
-    border-style: groove;
-    font-size: x-small;
-    outline-style: auto;
-    border-bottom-style: groove;
-    margin-bottom: 10px;
-    position: absolute;
-    width: 1400px;
-    font-size: xxx-large;
+    .icon-explanation {
+    flex-direction: column;
+    width: 900px}
 
- }
-
+.footer {
+  font-size: small;
+  width: 900px;
+  text-align: inherit;
 }
 
+  body {width: 900px;}
+
+
+ 
+
+}
